@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Prueba  Tecnica 
+## _Marlon Andres Vallejo Moreno_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Aplicacion web creada con react para visualizar listados de comics de la api de marverl.
+Herramientas utilizadas:
 
-In the project directory, you can run:
+- Axios: para conexion por medio de api Rest
+- Bootstrap: para estilar y dar detalles a pantallas y botones
+- NPM: para depliegue de proyecto y visualizacion del mismo
+- Git: para gestionar cambios y subir a repositorios en la nube
 
-### `npm start`
+## Instrucciones de uso
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Primero debe ejecutarse el comando npm start para desplegar la aplicacion y poder utilizarla de modo correcto.
+         `npm start`
+-  La aplicacion se abrirar en el puerto 3000(localhost:3000).
+- Se abrira una pestaña de registro donde debes registrarte por primera vez y asi poder acceder a todos los datos posteriormente.
+- Una vez registrado deberas proporcionar tus credenciales de manera correcta en la pestaña de login y dar click en iniciar sesion.
+- si ya se posee una sesion puedes dar click en un boton en la parte inferior derecha de la pantalla de registro para ir directamente al login.
+- Una vez iniciada la sesión obtendras todo el listado de comics que nos proporciona la api de marvel con su nombre fecha y portada(si tiene) del mismo modo puedes selecionar cuales son tus comisc favoritos.
